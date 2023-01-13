@@ -11,7 +11,9 @@ https://youtu.be/4FEIyDtZF9c
 
  - Download the JAR file listed above, and run with `java -jar`:
 
-     java -jar legendofdatastax.jar
+```
+java -jar legendofdatastax.jar
+```
 
 ## Controls
  - Movement: w, a, s, d
@@ -22,7 +24,7 @@ https://youtu.be/4FEIyDtZF9c
 ## Notes:
  - Music can be turned on in the `setup` method of `GamePanel.java`.
  - Number of monsters can be increased in the `generateMonsters` method of `ObjectFactory.java`.
- - Monster difficulty can be adjusted (speed, health points, attack) in the individual classes found in the (/monsters)[https://github.com/aar0np/LegendOfDataStax/tree/main/src/main/java/monster] dir.
+ - Monster difficulty can be adjusted (speed, health points, attack) in the individual classes found in the [/monsters](https://github.com/aar0np/LegendOfDataStax/tree/main/src/main/java/monster) dir.
 
 ## Additional callouts and credits
 
