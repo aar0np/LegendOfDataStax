@@ -15,7 +15,8 @@ import monster.GreenDragon;
 //import object.RedPotion;
 import monster.RedDragon;
 import monster.YellowDragon;
-import object.Sign;
+import object.Computer;
+//import object.Sign;
 
 public class ObjectFactory {
 
@@ -31,9 +32,13 @@ public class ObjectFactory {
 	//
 	public void generateObjects() {
 		
-		gp.getObjects()[0] = new Sign(gp);
-		gp.getObjects()[0].setWorldX(18 * tileSize);
-		gp.getObjects()[0].setWorldY(35 * tileSize);
+		gp.getObjects()[0] = new Computer(gp);
+		gp.getObjects()[0].setWorldX(26 * tileSize);
+		gp.getObjects()[0].setWorldY(42 * tileSize);
+
+		//gp.getObjects()[0] = new Sign(gp);
+		//gp.getObjects()[0].setWorldX(18 * tileSize);
+		//gp.getObjects()[0].setWorldY(35 * tileSize);
 		
 		// keys
 //		gp.getObjects()[0] = new Key(gp);
