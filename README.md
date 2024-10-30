@@ -4,6 +4,13 @@ Fight the treacherous demons of NoSQL!
 
 https://youtu.be/4FEIyDtZF9c
 
+## Screenshots
+
+<img src="lod_intro.png" width="200" align=right />
+<img src="lod_dragons.png" width="200" align=right />
+<img src="lod_dragon_sj.png" width="200" align=right />
+<img src="lod_patrick.png" width="200" align=right />
+
 ## How to run
  - Clone this repo and run a `mvn clean install`, followed by a `java -jar` command on the "with dependencies" JAR file created in the `/target` dir.
 
